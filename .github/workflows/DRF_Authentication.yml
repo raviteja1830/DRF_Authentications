@@ -28,6 +28,7 @@ jobs:
         pip install markdown
         pip install django-filter
         pip install drf-yasg
+        pip install djangorestframework-simplejwt
     - name: Run Tests
       run: |
         python manage.py test
